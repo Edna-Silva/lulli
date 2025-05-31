@@ -1,0 +1,64 @@
+.tool-bar-title{
+    padding-left: 0;
+}
+
+.selected-categories {
+    padding: 2rem;
+    ion-card {
+        border-radius: 0.5rem;
+        padding: 2rem;
+        background-color: var(--ion-color-secondary);
+        box-shadow: none;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        ion-text {
+            margin: 2rem;
+        }
+    }
+
+    ion-text,
+    ion-icon {
+        font-size: 1.6rem;
+        color: var(--ion-text-color);
+        
+    }
+}
+
+.suggestions-title {
+    padding: 2rem;
+    ion-text {
+        font-size: 2.4rem;
+        color: var(--ion-text-color);
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.option-btns {
+    padding: 2rem;
+
+    .category-btn {
+        --background: var(--ion-color-secondary);
+    }
+}
+
+.toolbar-container{
+    padding-left: 0;
+}
+
+.finish-btn-row{
+    position: fixed;
+    bottom: 2rem;
+    width: 100%;
+    padding: 2rem;
+
+    .finish-btn{
+        width: 100%;
+    }
+}

@@ -1,0 +1,47 @@
+.reports-header{
+  background-color: #040316;
+}
+
+.reports-component{
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    ion-text{
+        font-size: 1.6rem;
+    }
+    span {
+        font-size: 1.1rem;
+    }
+
+}
+}
+
+.all-transactions{
+  margin: 2rem;
+}
+
+
+.report-expenses-income{
+  margin-left: 2rem;
+  margin-top: 2rem;
+  span{
+    font-size: 1.4rem;
+  }
+  display: flex;
+  gap: 0.8rem;
+
+  .expenses, .income{
+    display: flex;
+      align-items: center;
+      gap: 0.3rem;
+  }
+  .expenses{
+    color: #E60026;
+  }
+
+  .income{
+    color: #00A550;
+  }
+}

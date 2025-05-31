@@ -1,0 +1,49 @@
+.user-name{
+  font-size: 24px;
+}
+.user-email{
+  font-size: 12px;
+  margin-top: -20px;
+}
+.first-row{
+  margin-left: 24px;
+  margin-bottom: 40px;
+}
+.card-content{
+  margin-left: 2rem;
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  color: var(--ion-text-color);
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  svg{
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+.card{
+  --background: var(--ion-color-secondary);
+  border-radius: 10px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.middle-card{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: var(--ion-color-secondary);
+  border-radius: 10px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.ion-modal {
+  opacity: 0; /* Initially hide the modal */
+  visibility: hidden; /* Prevent layout shifts */
+  transition: opacity 0.3s ease-in-out; /* Add smooth transition */
+}
+
+.ion-modal.show { /* Style for open modal */
+  opacity: 1;
+  visibility: visible;
+}

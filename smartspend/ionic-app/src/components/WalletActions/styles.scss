@@ -1,0 +1,40 @@
+.wallet-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 2rem;
+    .action-btn {
+        background: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+        span{
+            font-size: 1.6rem;
+        }
+
+
+
+        .icon {
+            background-color: var(--ion-action-btn);
+            width: 5rem;
+            height: 5rem;
+            border: none;
+            border-radius: 0.5rem;
+            color: white;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+            padding: 1rem;
+
+            svg,
+            ion-icon {
+                width: 2.4rem;
+                height: 2.4rem;
+            }
+        }
+
+    }
+}

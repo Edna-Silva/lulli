@@ -1,0 +1,13 @@
+{
+  "name": "SmartSpend",
+  "integrations": {
+    "capacitor": {},
+    "enterprise": {
+      "keyId": 18597,
+      "productKey": "key_2c8c4289580d495f883a85fb126b716f",
+      "appId": "ef3087ad",
+      "orgId": "e3bb9161-0627-450b-9fdc-fe5d415e83a7"
+    }
+  },
+  "type": "react-vite"
+}

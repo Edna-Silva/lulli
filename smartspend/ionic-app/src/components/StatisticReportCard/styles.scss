@@ -1,0 +1,21 @@
+.report-card {
+    --background: var(--ion-color-secondary);
+    color: var(--ion-text-color);
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin: 0;
+    width: 100%;
+    ion-icon{
+      width: 3rem;
+      height: 3rem;
+    }
+
+    span{
+        font-size: 1.6rem;
+    }
+    
+    
+  }

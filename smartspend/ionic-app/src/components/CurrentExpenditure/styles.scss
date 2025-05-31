@@ -1,0 +1,29 @@
+.expenditure-card {
+  --expenditure-text-color: #F8F8FF;
+
+  --background: #040316;
+  border-radius: 2rem;
+  padding: 1rem;
+  width: 100%;
+  margin-top: 2rem;
+  color: var(--expenditure-text-color);
+
+  ion-card-subtitle,
+  ion-card-title {
+    color: var(--expenditure-text-color);
+    font-size: 1.2rem;
+  }
+
+
+  ion-card-title {
+    font-size: 2.4rem;
+  }
+
+  span {
+    color: var(--expenditure-text-color);
+  }
+
+  ion-card-content{
+    font-size: 1.2rem;
+  }
+}

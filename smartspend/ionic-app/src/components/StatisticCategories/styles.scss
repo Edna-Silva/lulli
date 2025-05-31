@@ -1,0 +1,119 @@
+.statistic-categories {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+        ion-text {
+            font-size: 1.6rem;
+        }
+
+        span {
+            font-size: 1.1rem;
+        }
+
+    }
+}
+
+.category-header{
+    background-color: #040316;
+}
+
+.search-box {
+    background-color: var(--ion-color-secondary);
+    // padding: 0.5rem 1rem;
+    padding-left: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    ion-input {
+        display: flex;
+        align-items: center;
+        font-size: 1.3rem;
+        gap: 1rem;
+        --placeholder-opacity: 1 !important;
+        color: var(--ion-text-color);
+        ion-icon{
+            width: 2rem;
+            height: 2rem;
+        }
+    }
+}
+
+.category-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+    background-color: var(--ion-color-secondary);
+    border-radius: 1rem;
+    gap: 1rem;
+
+    .category-title-and-balance,
+    .expense-and-income {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .category-title-and-balance {
+        span {
+            font-size: 1.4rem;
+        }
+
+        :first-child {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+    }
+
+    .expense-and-income {
+
+        .expense {
+            color: #E60026;
+        }
+
+        .income {
+            color: #00A550;
+        }
+
+        span {
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+
+        }
+
+    }
+}
+
+
+
+.confirm-delete-message{
+    color: #E60026;
+    font-size: 2.4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.card-scroller {
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    gap: 1rem;
+    padding-left: 2rem;
+
+    ion-col.no-padding {
+        padding-inline-end: 0;
+        padding-inline-start: 0;
+    }
+}
+
+.card-scroller::-webkit-scrollbar {
+    /* WebKit */
+    display: none;
+}

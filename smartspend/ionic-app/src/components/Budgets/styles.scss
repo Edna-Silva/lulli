@@ -1,0 +1,81 @@
+.budget-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+.budget-name {
+    background-color: var(--ion-color-secondary);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 1rem;
+    width: 100%;
+    color: var(--ion-text-color);
+    color: #F8F8FF;
+    background-color: #00A550;
+
+    .left-side {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        z-index: 1;
+
+        .budget-title {
+            display: flex;
+            flex-direction: column;
+            gap: 0.2rem;
+
+            .clothing-text {
+                font-size: 1.6rem;
+                color: #F8F8FF;
+
+            }
+
+            .money1 {
+                font-size: 1rem;
+                color: #F8F8FF;
+
+            }
+        }
+    }
+
+    .right-side {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: end;
+        gap: 0.2rem;
+        z-index: 1;
+
+        .spent-text {
+            color: #F8F8FF;
+            font-size: 1.6rem;
+        }
+
+        .money2 {
+            margin-left: 5px;
+            color: #F8F8FF;
+            font-size: 1rem;
+        }
+
+    }
+}
+
+.edit-category-header {
+    font-size: 1.6rem;
+    margin: 2rem;
+}
+
+.budget-cat {
+    margin: 2rem;
+}
+
+.edit-budget-actions {
+    display: flex;
+    gap: 5rem;
+    margin: 2rem;
+}

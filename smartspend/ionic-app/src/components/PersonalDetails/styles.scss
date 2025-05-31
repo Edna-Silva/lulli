@@ -1,0 +1,54 @@
+.input {
+    background-color: var(--ion-color-secondary);
+    border-radius: 1rem;
+    font-size: 1.4rem;
+    --placeholder-opacity: 1;
+    --padding-start: 2rem;
+}
+
+.div-style {
+    margin: 20px;
+}
+
+.subheading {
+    text-align: left;
+    font-size: 24px;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ion-modal-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.save-button {
+    border-radius: 10px;
+    font-size: 24px;
+    background-color: white;
+    border: 1px solid #040316;
+    color: #040316;
+    height: 40px;
+    width: 170px;
+}
+
+.cancel-button {
+    border-radius: 10px;
+    font-size: 24px;
+    background-color: #7165E3;
+    color: white;
+    height: 40px;
+    width: 170px;
+}

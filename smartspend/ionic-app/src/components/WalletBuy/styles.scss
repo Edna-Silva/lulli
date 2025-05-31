@@ -1,0 +1,19 @@
+.purchase-items {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    .purchase-item {
+        border-radius: 1rem;
+        background-color: var(--ion-color-secondary);
+        padding: 2rem;
+        margin-bottom: 1rem;
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+
+        .item-logo, .item-name{
+            font-size: 1.6rem;
+        }
+    }
+}

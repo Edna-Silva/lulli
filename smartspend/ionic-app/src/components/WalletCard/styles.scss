@@ -1,0 +1,22 @@
+.wallet-card {
+    border-radius: 1rem;
+    background: rgb(113, 101, 227);
+    background: linear-gradient(0deg, rgba(113, 101, 227, 1) 0%, rgba(62, 56, 125, 1) 100%);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 5rem;
+    margin: 2rem;
+    .wallet-title{
+        font-size: 2rem;
+        display: flex;
+        gap: 1.5rem;
+    }
+    .wallet-balance{
+        font-size: 1.2rem;
+        span{
+            font-size: 2.4rem;
+        }
+    }
+}

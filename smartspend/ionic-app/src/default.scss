@@ -1,0 +1,158 @@
+ion-button {
+    --background: var(--ion-color-primary);
+    // --color: var(--ion-text-color);
+    --color: #F8F8FF;
+    text-transform: none;
+    font-size: 1.6rem;
+    font-family: 'Maven-Pro', sans-serif;
+    border-radius: 0.5rem;
+    --box-shadow: none;
+}
+
+button{
+    background: var(--ion-color-primary);
+    // --color: var(--ion-text-color);
+    color: #F8F8FF;
+    text-transform: none;
+    font-size: 1.6rem;
+    font-family: 'Maven-Pro', sans-serif;
+    border-radius: 0.5rem;
+    box-shadow: none;
+}
+ion-button.delete-btn {
+    --background: #E60026;
+}
+
+ion-button.cancel-btn {
+    --background: none;
+    --color: var(--ion-text-color);
+    border: 1px solid var(--ion-text-color);
+}
+
+.header-md {
+    --background: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+ion-title {
+    font-family: 'Outfit', sans-serif;
+    color: var(--ion-text-color);
+}
+
+.tool-bar-title {
+    margin-left: 2rem;
+}
+
+ion-text,
+span,
+ion-card-title,
+ion-card-subtitle,
+p,
+span {
+    font-family: 'Maven Pro', sans-serif;
+    color: var(--ion-text-color);
+}
+
+ion-page {
+    justify-content: start;
+}
+
+.ion-page {
+    justify-content: start;
+}
+
+
+.modal {
+    // --backdrop-opacity: 0.3;
+    // backdrop-filter: blur(0.5rem);
+
+    &::part(backdrop) {
+        background: var(--modal-backdrop);
+    }
+
+    &::part(handle) {
+        background: var(--ion-text-color);
+        width: 10rem;
+        height: 0.3rem;
+    }
+
+
+
+    &::part(content) {
+        border-radius: 4rem 4rem 0 0;
+        box-shadow: 0px 0px 20px 5px rgb(0 0 0 / 32%);
+    }
+
+
+}
+
+ion-modal {
+    --height: auto;
+}
+
+.modal-title {
+    --modal-bottom-border-colour: #EAE9FC33;
+
+    @media (prefers-color-scheme: dark) {
+        --modal-bottom-border-colour: #04031633;
+    }
+
+    border-bottom: 1px solid var(--modal-bottom-border-colour);
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    height: 5.2rem;
+}
+
+ion-range {
+    --bar-background: #f8f8ff;
+    --bar-background-active: #f8f8ff;
+    --bar-height: 0.5rem;
+    --bar-border-radius: 10rem;
+    --knob-background: #040316;
+    --knob-size: 3rem;
+    --pin-color: #f8f8ff;
+    pointer-events: none;
+    --knob-border-radius: 50%;
+    --knob-box-shadow: 0px 0px 0px 0.5rem #fff;
+}
+
+.ion-content::-webkit-scrollbar {
+    /* WebKit */
+    display: none;
+}
+
+ion-datetime-button::part(native) {
+    background: none;
+    font-size: 1.6rem;
+
+}
+
+.food {
+    background-color: #00A550;
+}
+
+.bills {
+    background-color: #E60026;
+}
+
+.transport {
+    background-color: #E4D96F;
+}
+
+.entertainment {
+    background-color: #563C5C;
+}
+
+.groceries {
+    background-color: #004225;
+}
+
+.gift{
+    background-color: #FF66CC;
+}
+
+.miscellaneous{
+    background-color: #FE5A1D;
+}

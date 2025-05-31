@@ -1,0 +1,17 @@
+ion-header {
+    ion-toolbar {
+        --background: none;
+        box-shadow: none;
+        padding-left: 2rem;
+
+        .tool-bar-title {
+            display: flex;
+            align-items: center;
+
+            ion-title,
+            ion-icon {
+                font-size: 2.4rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,78 @@
+.chart-info{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    height: 30%;
+    .transaction-type-filters{
+        display: flex;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        gap: 1rem;
+        .cycle-filters{
+            font-size: 1rem;
+        }
+    }
+    
+    .unselected{
+        --background: none;
+        border: 1px solid var(--ion-text-color);
+    }
+    
+    .expenditure{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        span{
+            font-size: 1.1rem;
+            .amount-spent{
+                font-size: 2.4rem;
+            }
+        }
+    }
+}
+
+.chart-container {
+    width: 100%; /* Ensure parent container takes full width */
+}
+
+.recharts-layer, .recharts-area{
+    width: 100%;
+    path{
+        width: 100%;
+    }
+}
+
+.recharts-layer{
+    width: 100%;
+    path{
+        width: 100%;
+    }
+}
+
+.recharts-curve .recharts-area-area{
+    width: 375px;
+}
+
+.actual-chart{
+    margin-top: 2rem;
+}
+
+.chart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    height: 60%;
+    background-color: #040316;
+}
+
+.time-type-filters{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    ion-button{
+        font-size: 1.2rem;
+    }
+}

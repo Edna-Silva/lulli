@@ -1,0 +1,60 @@
+.accounts{
+    border-radius: 1rem;
+    background-color: var(--ion-color-secondary);
+    padding: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+    .account-name, .account-balance{
+        font-size: 1.6rem;
+    }
+
+    .account-balance{
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+        span{
+            font-size: 1rem;
+        }
+    }
+}
+
+.enter-amount{
+    margin: 2rem;
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+.bottom-actions{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    ion-icon{
+        font-size: 4rem;
+    }
+}
+
+
+    .confirm-deposit{
+        --height: 100vh;
+    
+        .deposit-info{
+            background: var(--ion-color-secondary);
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            border-radius: 1rem;
+            p{
+                display: flex;
+                justify-content: space-between;
+                font-size: 1.6rem;
+            }
+        }
+    }
+
+    ion-button{
+        width: 100%;
+    }

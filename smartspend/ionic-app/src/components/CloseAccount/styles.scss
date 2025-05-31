@@ -1,0 +1,28 @@
+.grid-style{
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.text{
+    font-size: 15px;
+}
+.h1{
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+.keep-account { /* Styles for upper button (Cancel) */
+  position: absolute;
+  bottom: 55px; /* Adjusted for stacking */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: aqua;
+  border-radius: 20px;
+  /* Other button styles (can inherit from closeButton) */
+}
+.close-account { /* Styles for lower button (Close Account) */
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  /* Other button styles... */
+}
+
