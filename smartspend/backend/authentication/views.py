@@ -51,7 +51,7 @@ class LoginView(APIView):
     authentication_classes = [TokenAuthentication]
 
     def post(self, request):
-        serializer = LoginSerializer(data=request.data)
+        serializer = LoginSerializer("refresh")
         if serializer.is_valid(raise_exception=True):
             user = authenticate(email=serializer.data['email'], password=serializer.data['password'])
             if user:

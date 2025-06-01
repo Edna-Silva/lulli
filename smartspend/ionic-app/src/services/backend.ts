@@ -3,8 +3,8 @@ import { AuthenticatedUserModel } from "./auth/auth.model";
 import { getAccessToken } from './tokenAccessor';
 
 const baseQuery = fetchBaseQuery({
-  // baseUrl: 'http://localhost:8000/api/',
-  baseUrl: 'https://smartspend-two.vercel.app/api/',
+  baseUrl: 'http://localhost:8000/api/',
+  //baseUrl: 'https://smartspend-two.vercel.app/api/',
   // baseUrl: 'https://7965-41-182-12-215.ngrok-free.app/api/',
   mode: 'cors',
   prepareHeaders: async (headers) => {
